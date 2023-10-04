@@ -3,7 +3,6 @@ package hu.bme.mit.spaceship;
 /**
 * A simple spaceship with two proton torpedo stores and four lasers
 */
-//i wonder how this works after a reset
 public class GT4500 implements SpaceShip {
 
   private TorpedoStore primaryTorpedoStore;
