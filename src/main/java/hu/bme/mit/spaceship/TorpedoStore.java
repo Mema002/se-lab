@@ -10,7 +10,7 @@ import java.util.Random;
 public class TorpedoStore {
 
   //random variable for overheating
-  private Random randomgenerator = new Random();
+  final Random randomgenerator = new Random();
 
   // rate of failing to fire torpedos [0.0, 1.0]
   private double FAILURE_RATE = 0.0; //NOSONAR
